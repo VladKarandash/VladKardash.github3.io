@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('../img/back.jpg');
+}
+@font-face {
+  font-family: 'TahomaRegular';
+  src: url('../fonts/TahomaRegular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+li {
+    list-style-type: none;
+   }
+.wrapper{
+  width: 1000px;
+  height: 900px;
+  margin: 0px 150px 0px 150px;
+  background-color: white;
+  box-shadow: 0px 1px 10px 3px rgba(0,0,0,0.46);
+  border-bottom: 2px solid black;
+
+}
+.logo{
+  margin: 30px 0px 0px 0px;
+  padding: 15px 15px 0px 15px;
+  width: 400px;
+  float: left;
+  clear: both;
+}
+.contacts{
+margin: 0px;
+padding: 50px 30px 30px 03px;
+float: right;
+font-family: 'TahomaRegular';
+font-size: 12px;
+color: #128aa7;
+}
+.OurContacts{
+  font-weight: 600;
+}
+.countries{
+margin: 20px 20px 0px 0px;
+font-size: 10px;
+font-family: 'TahomaRegular';
+float: right;
+}
+li{
+  display: inline-block;
+}
+.pict{
+padding-top: 0px;
+}
+.footer{
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'TahomaRegular';
+}
+.nav ul {
+  font-family: 'TahomaRegular';
+position: relative;
+border-bottom: 1px solid black;
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  list-style: none;
+  background-color: #343434;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav li {
+  font-family: 'TahomaRegular';
+  font-size: 10px;
+  line-height: 10px;
+  text-align: left;
+}
+
+.nav a {
+
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 0px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+.nav li li {
+  font-size: 12px;
+}
+  .nav li {
+    width: auto;
+    border-bottom: none;
+    height: 29px;
+    line-height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 0px 30px 0 30px;
+  }
+  .nav a {
+    border-bottom: none;
+  }
+  .nav > ul > li {
+    text-align: left;
+  }
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+  .nav li:hover ul {
+    display: block;
+  }
+  .nav li ul li {
+    display: block;
+  }
+  .leftBlock{
+    border-right: 1px solid #c7cacf;
+    height: 415px;
+    width: 200px;
+    text-align: center;
+    background-color: #edeef0;
+    font-size: 14px;
+    font-family: 'TahomaRegular';
+    float: left;
+
+  }
+  .info{
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'TahomaRegular';
+    text-align: center;
+  }
+  .novosti{
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'TahomaRegular';
+    text-align: center;
+  }
+  .rightBlock{
+    border-right: 1px solid #c7cacf;
+    height: 415px;
+    width: 200px;
+    text-align: center;
+    background-color: #edeef0;
+    font-size: 14px;
+    font-family: 'TahomaRegular';
+    float: right;
+  }

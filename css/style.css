@@ -17,7 +17,7 @@ li {
 .wrapper{
   width: 1000px;
   height: 900px;
-  margin: 0px 150px 0px 150px;
+  margin: 0px auto;;
   background-color: white;
   box-shadow: 0px 1px 10px 3px rgba(0,0,0,0.46);
   border-bottom: 2px solid black;
@@ -26,14 +26,15 @@ li {
 .logo{
   margin: 30px 0px 0px 0px;
   padding: 15px 15px 0px 15px;
-  width: 400px;
+  width: 256px;
   float: left;
   clear: both;
 }
 .contacts{
-margin: 0px;
+margin: 0px auto;
 padding: 50px 30px 30px 03px;
 float: right;
+clear:right;
 font-family: 'TahomaRegular';
 font-size: 12px;
 color: #128aa7;
@@ -42,13 +43,31 @@ color: #128aa7;
   font-weight: 600;
 }
 .countries{
-margin: 20px 20px 0px 0px;
+position:relative;
+clear: right;
+margin: 50px 20px 0px 0px;
 font-size: 10px;
 font-family: 'TahomaRegular';
 float: right;
 }
-li{
+
+.countries li{
   display: inline-block;
+}
+.countries a
+{
+margin-left: 20px;
+padding-left: 0px;
+}
+
+.countries a img
+{
+position:absolute;
+top:-45px;
+}
+
+.countries div{
+	float: right;
 }
 .pict{
 padding-top: 0px;
@@ -144,7 +163,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
     text-align: center;
   }
   .rightBlock{
-    border-right: 1px solid #c7cacf;
+    border-left: 1px solid #c7cacf;
     height: 415px;
     width: 200px;
     text-align: center;

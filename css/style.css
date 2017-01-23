@@ -41,11 +41,16 @@ color: #128aa7;
 }
 .OurContacts{
   font-weight: 600;
+  line-height: 2;
 }
+.contactsInfo{
+  line-height: 1.5;
+}
+
 .countries{
 position:relative;
 clear: right;
-margin: 50px 20px 0px 0px;
+margin: 40px 20px 0px 0px;
 font-size: 10px;
 font-family: 'TahomaRegular';
 float: right;
@@ -172,3 +177,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
     font-family: 'TahomaRegular';
     float: right;
   }
+.nav li .drop{
+  padding-right:15px;
+  background: url('../img/row.png') no-repeat right 12px;
+}
